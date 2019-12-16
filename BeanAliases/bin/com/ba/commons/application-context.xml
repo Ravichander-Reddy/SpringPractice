@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="company" class="com.ba.beans.Company">
+		<property name="companyName" value="Cogent" />
+		<property name="companyCode" value="CDS" />
+		<property name="companyLocation" value="Hyderabad" />
+	</bean>
+
+	<alias name="company" alias="c" />
+</beans>
